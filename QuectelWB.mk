@@ -3,7 +3,11 @@ PRODUCT_COPY_FILES += \
     vendor/Quectel_RIL/RIL_32bits/librilquectel.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilquectel.so \
     vendor/Quectel_RIL/RIL_64bits/librilquectel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilquectel.so \
     vendor/Quectel_RIL/RIL_32bits/libreference-rilquectel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreference-rilquectel.so \
-    vendor/Quectel_RIL/RIL_64bits/libreference-rilquectel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-rilquectel.so
+    vendor/Quectel_RIL/RIL_64bits/libreference-rilquectel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-rilquectel.so \
+    vendor/Quectel_RIL/RIL_64bits/chat:$(TARGET_COPY_OUT_SYSTEM)/bin/chat \
+    vendor/Quectel_RIL/RIL_64bits/ip-down:$(TARGET_COPY_OUT_SYSTEM)/etc/ppp/ip-down \
+    vendor/Quectel_RIL/RIL_64bits/ip-up:$(TARGET_COPY_OUT_SYSTEM)/etc/ppp/ip-up \
+    vendor/Quectel_RIL/RIL_64bits/ql-ril.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ql-ril.conf
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.cdma.xml \
