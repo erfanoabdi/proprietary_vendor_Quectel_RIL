@@ -1,9 +1,9 @@
 # RILD Related
 PRODUCT_COPY_FILES += \
-    vendor/Quectel_RIL/libril/32/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
-    vendor/Quectel_RIL/libril/64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
-    vendor/Quectel_RIL/libreference-ril/32/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreference-ril.so \
-    vendor/Quectel_RIL/libreference-ril/64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so
+    vendor/Quectel_RIL/RIL_32bits/librilquectel.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilquectel.so \
+    vendor/Quectel_RIL/RIL_64bits/librilquectel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilquectel.so \
+    vendor/Quectel_RIL/RIL_32bits/libreference-rilquectel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreference-rilquectel.so \
+    vendor/Quectel_RIL/RIL_64bits/libreference-rilquectel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-rilquectel.so
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.cdma.xml \
