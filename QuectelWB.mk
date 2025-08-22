@@ -33,6 +33,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persists.telephony.support.ipv4=1 \
     telephony.lteOnGsmDevice=1 \
     telephony.lteOnCdmaDevice=0 \
-    vendor.rild.libpath=/vendor/lib64/libril.so \
+    vendor.rild.libpath=/vendor/lib64/libreference-rilquectel.so \
     vendor.rild.libargs=-d/dev/ttyUSB2 \
     ril.function.dataonly=0
